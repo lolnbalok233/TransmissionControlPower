@@ -7,6 +7,8 @@ It adjusts a few settings within the linux network stack.
 ## Can it brick my system
 If you have an old kernel or a kernel without BBR support, then maybe. It will mess with your current kernel if it fails to detect bbr as being a valid tcp congestion control algorithm. If you have a kernel that supports BBR, then it will not mess with your current kernel.
 
+This script is only tested on Debian KVM machines. It is **not** designed to work with other OSes. Use at your own risk.
+
 ## How to use
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/daycat/TransmissionControlPower/main/optimise.sh)
