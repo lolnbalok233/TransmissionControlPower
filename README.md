@@ -11,7 +11,7 @@ This script is only tested on Debian KVM machines. It is **not** designed to wor
 
 ## How to use
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/daycat/TransmissionControlPower/main/optimise.sh)
+bash <(curl -s https://raw.githubusercontent.com/lolnbalok233/TransmissionControlPower/main/optimise.sh)
 ```
 
 ## How well does it works
